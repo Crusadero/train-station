@@ -1,0 +1,19 @@
+
+.header-row {
+    color: #aaa;
+    font-size: 14px;
+    font: inherit;
+    
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+}
+
+.list-items {
+    margin: 5px;
+}
+
+.list-container {
+    border: 3px #59a127 solid;
+    border-radius: 6px;
+}

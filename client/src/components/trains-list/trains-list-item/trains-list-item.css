@@ -1,0 +1,22 @@
+
+
+.trains-list-item {
+    height: 40px;
+
+    text-align: left;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font: inherit;
+
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;   
+}
+
+.trains-list-item:nth-child(2n) {
+    background: lightgray;
+}
+
+.trains-list-item:hover {
+    background-color: #aaa;
+}

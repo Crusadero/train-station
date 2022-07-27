@@ -1,0 +1,32 @@
+
+
+.train-info {
+    display: table;
+    text-align: center;
+    width: 400px;
+    margin-top: 25px;
+
+    border: 3px #59a127 solid;
+    border-radius: 6px;
+
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+}
+
+.train-info table {
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+
+.train-info table th {
+    color: gray;
+    font-weight: 700;
+    text-align: left;
+    font-size: 18px;
+}
+
+.train-info table tr:nth-child(2n) {
+    background: lightgray;
+}
